@@ -1,0 +1,5 @@
+# Replace chat.example.com with your domain. Point its DNS to the server first.
+# Use this only on a host where you manage the reverse proxy yourself.
+chat.example.com {
+    reverse_proxy 127.0.0.1:3000
+}
